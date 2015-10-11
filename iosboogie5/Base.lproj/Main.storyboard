@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Search Movie Database-->
         <scene sceneID="mb1-nB-Hpi">
             <objects>
                 <viewController id="5HW-hA-VvH" customClass="ViewController" customModule="iosboogie5" customModuleProvider="target" sceneMemberID="viewController">
@@ -28,14 +28,10 @@
                                     <action selector="clickDerp:" destination="5HW-hA-VvH" eventType="touchUpInside" id="zmA-Sn-12c"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E10-YA-7WK">
-                                <rect key="frame" x="60" y="187" width="68" height="30"/>
-                                <state key="normal" title="showData"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NVq-5H-wxH"/>
+                    <navigationItem key="navigationItem" title="Search Movie Database" id="NVq-5H-wxH"/>
                     <connections>
                         <outlet property="textBox" destination="Igr-Ua-2gk" id="5e5-tw-qUH"/>
                         <segue destination="awA-zq-7WJ" kind="show" identifier="movies" id="bgI-9q-NyC"/>
