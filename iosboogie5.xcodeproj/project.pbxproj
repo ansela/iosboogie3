@@ -14,6 +14,7 @@
 		ABD0976E1BC5DC530075582B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD0976C1BC5DC530075582B /* LaunchScreen.storyboard */; };
 		ABD097791BC5DC530075582B /* iosboogie5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD097781BC5DC530075582B /* iosboogie5Tests.swift */; };
 		ABD097841BC5DC530075582B /* iosboogie5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD097831BC5DC530075582B /* iosboogie5UITests.swift */; };
+		ABD097921BC5DCE70075582B /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD097911BC5DCE70075582B /* MyTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ABD0977F1BC5DC530075582B /* iosboogie5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosboogie5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD097831BC5DC530075582B /* iosboogie5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosboogie5UITests.swift; sourceTree = "<group>"; };
 		ABD097851BC5DC530075582B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD097911BC5DCE70075582B /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				ABD097631BC5DC530075582B /* AppDelegate.swift */,
 				ABD097651BC5DC530075582B /* ViewController.swift */,
 				ABD097671BC5DC530075582B /* Main.storyboard */,
+				ABD097911BC5DCE70075582B /* MyTableViewController.swift */,
 				ABD0976A1BC5DC530075582B /* Assets.xcassets */,
 				ABD0976C1BC5DC530075582B /* LaunchScreen.storyboard */,
 				ABD0976F1BC5DC530075582B /* Info.plist */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD097661BC5DC530075582B /* ViewController.swift in Sources */,
+				ABD097921BC5DCE70075582B /* MyTableViewController.swift in Sources */,
 				ABD097641BC5DC530075582B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
